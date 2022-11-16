@@ -105,13 +105,7 @@ public class Application {
 
     private void createTeamsProject() {
         Project Teams = new Project("TEams", "Project Management Software", "10/11/2020", "11/10/2020");
-        // Teams.setTeamMembers();
-        //projects.put("TEams", Teams);
-        //  projects.put("Dean", Teams);
-        //projects.put("Angie", Teams);
         for (Employee employee : employees) {
-            //depts.put("Dean", departments.get(0));
-            //depts.put("Margaret", departments.get(1));
             if (employee.getDepartment().getName().equals("Engineering")) {
                 departmentEngineering.add(employee);
             }
@@ -138,20 +132,9 @@ public class Application {
         System.out.println("\n------------- PROJECTS ------------------------------");
         System.out.println("TEams: " + departmentEngineering.size());
         System.out.println("Marketing Landing Page: " + departmentMarketing.size());
-        int engineeringTeam = 0;
-        int marketingTeam = 0;
-        //for (int i=0; i<projects.size();i++){
 
-        //     if(projects.containsKey("Dean")){
-        //        System.out.println("Team ++");
     }
-         /*   if (depts.containsValue(departments.get(2))){
-                engineeringTeam++;
-                System.out.println("Team ++");
-            } if(depts.containsValue("Marketing Landing Page")){
-                marketingTeam++;
-                System.out.println("Markets ++");
-            } */
+
 
 
 
